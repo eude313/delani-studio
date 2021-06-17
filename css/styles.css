@@ -3,30 +3,20 @@
     margin: 0px;
     box-sizing: border-box;
 }
-.cont-1{
+/* styling the header section */
+#top{
     background-image: url("/images/h_img.jpg");
-    height: 90vh;
-    width: auto;
-    padding: 11rem 11rem;
+    background-size: cover;
+    height: 100vh;
+    padding: 19rem;
+}
+.hey{
+    font-family: 'Bevan', cursive;
     color: white;
 }
-.box-1{
-    height: 70vh;
-    width: 100%;
-    border: 1px solid rgb(5, 5, 5);
-    padding-left: 17rem;
+.me{
+    font-size: 55px;
 }
-.logo{
-    padding-left: 15rem;
-}
-.wel{
-    padding-left: 12rem;
-}
-.dela{
-    padding-left: 6.5rem;
-}
-.mouse{
-    margin: 18rem;
-    width: 3%;
-
+.you{
+    padding-top: 10rem;
 }
