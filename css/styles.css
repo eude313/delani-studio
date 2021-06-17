@@ -1,0 +1,16 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.cont-1{
+    background-image: url("/images/h_img.jpg");
+    height: 90vh;
+    width: auto;
+    padding: 11rem 11rem;
+}
+.box-1{
+    height: 70vh;
+    width: 100%;
+    border: 1px solid rgb(5, 5, 5);
+}
