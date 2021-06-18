@@ -26,3 +26,10 @@
 .abou{
     font-family: 'Bevan', cursive;
 }
+#middle-1{
+    background-image: url("/images/s_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    padding-top: 9rem;
+}
