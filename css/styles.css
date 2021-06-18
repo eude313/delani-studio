@@ -3,6 +3,9 @@
     margin: 0px;
     box-sizing: border-box;
 }
+.main-flex{
+    display: flex;
+}
 /* styling the header section */
 #top{
     background-image: url("/images/h_img.jpg");
@@ -20,12 +23,14 @@
 .you{
     padding-top: 10rem;
 }
+/* about styling */
 #about{
     margin: 4rem 0rem;
 }
 .abou{
     font-family: 'Bevan', cursive;
 }
+/* services styling */
 #middle-1{
     background-image: url("/images/s_image.jpg");
     background-repeat: no-repeat;
