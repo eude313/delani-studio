@@ -38,9 +38,11 @@
     height: 50vh;
     padding-top: 9rem;
 }
+/* .men{
+    flex-wrap: wrap;
+} */
 .boy{
-    /* margin-left: 10px; */
-    /* justify-content: space-around; */
+    margin-bottom: 2rem;
 }
 #middle-2{
     background-image: url("/images/c_image.jpg");
@@ -48,6 +50,25 @@
     height: 69vh;
     margin-top: 6rem;
 }
-.class{
+.opa{
+    width: 95%;
+}
+.form-row{
+    padding-left: 31rem;
+}
+.thick{
+    background-color: transparent;
+}
+
+.iconic{
+    margin-top: 3rem;
+}
+.icon{
+    margin-left: 7px;
+    border-radius: 50px;
     
+}
+.icon:hover{
+    opacity: 1;
+    box-shadow: black;
 }
