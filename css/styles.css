@@ -6,6 +6,9 @@
 .main-flex{
     display: flex;
 }
+.range {
+    font-family: 'Bevan', cursive;
+}
 /* styling the header section */
 #top{
     background-image: url("/images/h_img.jpg");
@@ -37,10 +40,8 @@
     background-size: cover;
     height: 50vh;
     padding-top: 9rem;
+    
 }
-/* .men{
-    flex-wrap: wrap;
-} */
 .boy{
     margin-bottom: 2rem;
 }
@@ -49,6 +50,7 @@
     background-position: center;
     height: 69vh;
     margin-top: 6rem;
+    font-family: 'Bevan', cursive;
 }
 .opa{
     width: 95%;
@@ -71,4 +73,8 @@
 .icon:hover{
     opacity: 1;
     box-shadow: black;
+}
+.hi{
+    font-family: 'Bevan', cursive;
+    margin-top: 20px;
 }
