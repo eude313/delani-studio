@@ -71,8 +71,11 @@
     margin-top: 6rem;
     font-family: 'Bevan', cursive;
     padding: 50px;
+    color: white;
 }
-
+.rou{
+    margin-bottom: 2rem;
+}
 #comment {
     background: transparent;
     color: white;
