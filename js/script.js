@@ -9,7 +9,12 @@ $(".blue").hover(function () {
 });
 
 $("button").click(function (Eudes) {
-    let client = document.getElementsByClass('nameDetail').value;
-    alert(' Dear ' + nameDetail + ' we have received your message successfully. ' + ' Reach out to us anytime');
+    alert(' Dear ' + 'customer' + ' we have received your message successfully. ' + ' Reach out to us anytime');
     Eudes.preventDefault();
+});
+
+$("button").on('click', function () {
+    $('form').each(function () {
+      this.reset();
+    });
 });

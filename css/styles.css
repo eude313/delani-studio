@@ -50,13 +50,6 @@
 .drop{
     display: none;
 }
-#middle-2{
-    background-image: url("/images/c_image.jpg");
-    background-position: center;
-    height: 69vh;
-    margin-top: 6rem;
-    font-family: 'Bevan', cursive;
-}
 .conta{
     margin-top: 2rem;
 }
@@ -71,11 +64,19 @@
     transition: all 0.4s ease-out;
 }
 
+#middle-2{
+    background-image: url("/images/c_image.jpg");
+    background-position: center;
+    height: 69vh;
+    margin-top: 6rem;
+    font-family: 'Bevan', cursive;
+    padding: 50px;
+}
+
 #comment {
     background: transparent;
     color: white;
     font-size: 20px;
-    font-family: 'Playfair Display', serif;
 }
 .form-control::-webkit-input-placeholder {
     color: rgb(255, 255, 255);
@@ -83,18 +84,18 @@
 .beef{
     background-color: transparent;
 }
-#text {
-    width: 45%;
-    margin-left: 0%;
-    margin-right: 30px;
-}
-#email {
-    width: 45%;
-}
 #comment {
     margin-left: 12.5%;
     width: 80%;
     margin-right: 30%
+}
+#email {
+    width: 38%;
+}
+#text {
+    width: 40%;
+    margin-left: 14rem;
+    margin-right: 30px;
 }
 
 .iconic{
