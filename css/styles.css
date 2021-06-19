@@ -60,14 +60,38 @@
 .conta{
     margin-top: 2rem;
 }
-.opa{
-    
+.blue{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
 }
-.form-row{
-    justify-content: center;
+
+.blue:hover img{
+    transform: scale(1.1);
+    transition: all 0.4s ease-out;
 }
-.thick{
-    background-color: transparent;
+
+#comment {
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+.form-control::-webkit-input-placeholder {
+    color: white;
+}
+#text {
+    width: 45%;
+    margin-left: 0%;
+    margin-right: 30px;
+}
+#email {
+    width: 45%;
+}
+#comment {
+    margin-left: 12.5%;
+    width: 80%;
+    margin-right: 30%
 }
 
 .iconic{
@@ -85,4 +109,8 @@
 .hi{
     font-family: 'Bevan', cursive;
     margin-top: 20px;
+}
+.area{
+    max-width: 50%;
+    width: 50%;
 }
