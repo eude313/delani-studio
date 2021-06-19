@@ -39,11 +39,16 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 50vh;
-    padding-top: 9rem;
-    
+    padding-top: 9rem;  
+}
+.fle{
+    margin: 2rem;
 }
 .boy{
     margin-bottom: 2rem;
+}
+.drop{
+    display: none;
 }
 #middle-2{
     background-image: url("/images/c_image.jpg");
