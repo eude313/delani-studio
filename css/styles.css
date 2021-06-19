@@ -57,11 +57,14 @@
     margin-top: 6rem;
     font-family: 'Bevan', cursive;
 }
+.conta{
+    margin-top: 2rem;
+}
 .opa{
-    width: 95%;
+    
 }
 .form-row{
-    padding-left: 31rem;
+    justify-content: center;
 }
 .thick{
     background-color: transparent;
