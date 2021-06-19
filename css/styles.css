@@ -78,7 +78,10 @@
     font-family: 'Playfair Display', serif;
 }
 .form-control::-webkit-input-placeholder {
-    color: white;
+    color: rgb(255, 255, 255);
+}
+.beef{
+    background-color: transparent;
 }
 #text {
     width: 45%;
