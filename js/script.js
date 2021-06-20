@@ -4,7 +4,7 @@ $('.brand').click(function () {
     $(this).children('.show').slidetoggle(1400);
 });  
 
-$(".blue").hover(function () {
+$(".range").hover(function () {
     $(this).children(".red").slideToggle(1000, "linear");
 });
 

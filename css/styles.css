@@ -41,20 +41,28 @@
     height: 50vh;
     padding-top: 9rem;  
 }
+.porfol{
+    /* margin-top: 9rem; */
+    padding-top: 4rem;
+}
 .fle{
     margin: 2rem;
 }
 .boy{
-    margin-bottom: 2rem;
+    margin-top: 4rem;
 }
 .drop{
     display: none;
+    position: absolute;
 }
-.conta{
-    margin-top: 2rem;
+.range{
+    margin-bottom: -10rem;
+    height: 50vh;
 }
+
 .blue{
     position: relative;
+    top: 4rem;
     overflow: hidden;
     cursor: pointer;
 }
@@ -63,15 +71,34 @@
     transform: scale(1.1);
     transition: all 0.4s ease-out;
 }
+.red{
+    color: white;
+    position: relative;
+    top: -15rem;
+    text-shadow: 3px 2px 3px black;
+    border: 2px solid;
+    border-radius: 20px;
+    box-shadow: 3px 2px 2px black;
+    margin: 3rem;
+    padding: 4%;
+    opacity: 0;
+}
+.red:hover{
+    opacity: 1;
+}
 
 #middle-2{
     background-image: url("../images/c_image.jpg");
     background-position: center;
     height: 69vh;
-    margin-top: 6rem;
+    margin-top: 50rem;
     font-family: 'Bevan', cursive;
     padding: 50px;
     color: white;
+}
+.conta{
+    margin-top: -2rem;
+    
 }
 .rou{
     margin-bottom: 2rem;
@@ -109,13 +136,19 @@
     border-radius: 50px;
     
 }
-.icon:hover{
-    opacity: 1;
-    box-shadow: black;
-}
 .hi{
     font-family: 'Bevan', cursive;
     margin-top: 20px;
+}
+
+.iconic img {
+    border-radius: 50%;
+    transition: 0.2s ease-out;
+}
+
+.iconic img:hover {
+    box-shadow: 0 0 30px black;
+    background: blue;
 }
 .area{
     max-width: 50%;
