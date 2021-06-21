@@ -49,11 +49,14 @@
     margin: 2rem;
 }
 .boy{
-    margin-top: 4rem;
+    margin-top: -9.5rem;
 }
+.drop2,
+.drop3,
 .drop{
     display: none;
     position: absolute;
+    cursor: pointer
 }
 .range{
     margin-bottom: -10rem;
@@ -91,7 +94,7 @@
     background-image: url("../images/c_image.jpg");
     background-position: center;
     height: 69vh;
-    margin-top: 50rem;
+    margin-top: 40rem;
     font-family: 'Bevan', cursive;
     padding: 50px;
     color: white;
