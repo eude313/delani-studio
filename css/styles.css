@@ -86,7 +86,7 @@
     padding: 4%;
     opacity: 0;
 }
-.red:hover{
+.blue:hover .red{
     opacity: 1;
 }
 
